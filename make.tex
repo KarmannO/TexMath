@@ -3,18 +3,16 @@
 \usepackage{bigints}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-\usepackage[a4paper,margin=0.5in,landscape]{geometry}
+\usepackage[a4paper,margin=1cm,landscape]{geometry}
 \usepackage{multicol}
 \usepackage{xfrac}
+\pagestyle{empty}
 \setlength{\parskip}{4mm}
  
 \begin{document}
-	
 
 \begin{multicols}{2}
-
 \centerline{Вариант 25}
-
 \begin{enumerate}[label=\Roman*.]
 	\item
 	\begin{multicols}{3}
@@ -132,30 +130,668 @@
 	\item Вычислить пределы
 	\begin{multicols}{3}
 		\begin{itemize}[label=""]
-			\setlength\itemsep{0.7em}
 			\item $\lim\limits_{x \to 0}\ \cfrac{2x - x^3}{7+2x+6x^4}$
 			\item $\lim\limits_{x \to \infty}\ \cfrac{3x^4 + 2x^3 + 9}{1-3x^2-x^3}$
 			\item $\lim\limits_{x \to 7}\ \cfrac{2-\sqrt{x-3}}{x^2-49}$
-		\end{itemize}
-		\vfill\null\columnbreak
-		\begin{itemize}[label=""]
-			\setlength\itemsep{0.7em}
+				\vfill\null\columnbreak
 			\item $\lim\limits_{x \to 0}\ \cfrac{\cos 4x - \cos^3 4x}{3x^2}$
-			\item $\lim\limits_{x \to 0}\ \cfrac{2x - x^3}{7+2x+6x^4}$
-			\item $\lim\limits_{x \to \infty}\ \cfrac{2x - x^3}{7+2x+6x^4}$
+			\item $\lim\limits_{x \to 0}\ \cfrac{\arcsin 2x}{x^2-4x}$
+			\item $\lim\limits_{x \to \infty}\ \Bigg(\cfrac{x-2}{x+1}\Bigg)^{2x-3}$
+				\vfill\null\columnbreak
+			\item $\lim\limits_{x \to \infty}\ \Bigg(\cfrac{1-2x}{3-x}\Bigg)^{-x}$
+			\item $\lim\limits_{x \to 3}\ \cfrac{2x^2+5x-3}{3x^2+10x+3}$
+			\item $\lim\limits_{x \to \infty} \sqrt{2x}-\sqrt{2x+x^2}$
+				\vfill\null\columnbreak
 		\end{itemize}
+	\end{multicols}
+	\vspace{-5mm}
+	\item Исследовать на непрерывность и построить
+	\begin{multicols}{3}
+		f(x)=
+		$\begin{cases}
+		x^2 + 1 \quad, & x \leq 1\\
+		2x \quad, & 1 < x \leq 3 \\
+		\mbox{e}^{x-1}, & x > 3
+		\end{cases}$
 		\vfill\null\columnbreak
-		\begin{itemize}[label=""]
-			\setlength\itemsep{0.7em}
-			\item $\lim\limits_{x \to 0}\ \cfrac{2x - x^3}{7+2x+6x^4}$
-			\item $\lim\limits_{x \to 0}\ \cfrac{2x - x^3}{7+2x+6x^4}$
-			\item $\lim\limits_{x \to 0}\ \cfrac{2x - x^3}{7+2x+6x^4}$
-		\end{itemize}
 		\vfill\null\columnbreak
 	\end{multicols}
 	
-\end{enumerate}	
+	\item Найти производные $y'=?$
+	\begin{multicols}{2}
+		\begin{itemize}[label=""]
+			\item $y=x\sqrt{x}-\cfrac{3}{x}+\cfrac{4}{x^3}-3x^2$
+			\item $y=\cfrac{\arccos x^3}{\ln (2x+3)}$
+			\item $y=\mbox{arctg}^23x \cdot \sin \cfrac{4}{x}$
+			\item $y=\Big(\mbox{ctg}\ \cfrac{x^2}{2}\Big)^{\lg 5x}$
+		\end{itemize}
+		\vfill\null\columnbreak
+		\begin{itemize}[label=""]
+			\item $y=\sqrt[3]{\big(x-7\big)^5} + \cfrac{5}{4x^2+3x-5}$
+			\item $y=\cfrac{6x^4 - 2x -7}{3+3x^2-x^3}$
+			\item $y=(x^2 + 7)(x^3 + 8)(x^2 - 2)$
+			\item $\sin(xy) + \cos(xy) = 0$
+		\end{itemize}
+	\end{multicols}
+	\vspace{-3mm}
+	$y''_{xx}=? \quad x=\cfrac{2t}{1+t^3} \quad,\quad y=\cfrac{t^2}{1 + t^2}$ \\
+	$y'''_{x_0}=? \quad y=\mbox{e}^x \sin 2x \quad,\quad y=\cfrac{t^2}{1 + t^2}$
+	\item Вычислить пределы используя правило Лопиталя
+	\begin{multicols}{3}
+		\raggedcolumns
+		\begin{itemize}[label=""]
+			\item $\lim\limits_{x\to-\infty} \sqrt[3]{x^5}\cdot\mbox{e}^2x$
+			\vfill\null\columnbreak
+			\item $\lim\limits_{x\to+\infty}\cfrac{\ln^2(x^2)}{x}$
+			\vfill\null\columnbreak
+			\item $\lim\limits_{x\to 0}\cfrac{\mbox{tg}x - x}{2\sin x + x}$
+			\vfill\null\columnbreak
+		\end{itemize}
+	\end{multicols}
+	\vspace{-4mm}	
+	\item Найти наименьшее и наибольшее значения функции
 
+	$y=\sqrt{x-x^3}$ на отрезке $[-4;3]$
+	\item Исследовать функцию и построить график
+	\begin{multicols}{2}
+		\begin{itemize}[label=""]
+			\setlength\itemsep{0.5em}
+			\item а$)$ $y=\cfrac{x^2-6x+10}{x-3}$
+		\end{itemize}
+		\vfill\null\columnbreak
+		\begin{itemize}[label=""]
+			\setlength\itemsep{0.5em}
+			\item б$)$ $y=\big(x-2\big)\mbox{e}^{-x}$
+		\end{itemize}
+	\end{multicols}
+\end{enumerate}	
 \end{multicols}
  
+\begin{multicols}{2}
+	\centerline{Вариант 26}
+	\begin{enumerate}[label=\Roman*.]
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\sqrt[7]{4-2x}\ dx$
+				\item $\bigints\cfrac{dx}{5-3x}$
+				\item $\bigints\sin \big( 8-5x \big)\ dx$
+				\item $\bigints\cfrac{5xdx}{\sqrt{7x^2-1}}$
+				\item $\bigints\cfrac{3\sqrt{x}+4x-5}{x^2}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*. , start=6]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{\ln^7(x-8)dx}{8-x}$
+				\item $\bigints\cfrac{dx}{\cos^2x \sqrt[5]{\mbox{tg}^2x}}$
+				\item $\bigints \sin^4 8x \cos 8x\ dx$
+				\item $\bigints\cfrac{dx}{\sqrt{1-9x^2}\arcsin^2 3x}\ dx$
+				\item $\bigints 3x^2\mbox{e}^{x^3 + 1}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*. , start=11]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{2x - 3}{\sqrt{x^2 - 10}}\ dx$
+				\item $\bigints\cfrac{4xdx}{8-x^4}$
+				\item $\bigints\cfrac{4x^3 + 3x^2}{x^4 + x^3 - 9}\ dx$
+				\item $\bigints\cfrac{dx}{(7x - 1)^2 + 3}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\big(x^2 - 3\big)\mbox{e}^{-2x}\ dx$
+				\item $\bigints\mbox{arcctg}6x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\ln\big(5x + 4\big)\ dx$
+				\item $\bigints\mbox{e}^{\sfrac{x}{5}}\cos x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{x\sqrt{x - 2}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=2]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{\sqrt{x}dx}{1 - \sqrt[3]{x}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{1 - \sqrt{x}}{\sqrt{x} (x + 1)}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{5x^2 - 10x + 25}$
+				\item $\bigints\cfrac{dx}{\sqrt{1 - x - x^2}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{x-3}{4x^2+2x+3}\ dx$
+				\item $\bigints\cfrac{6x^2dx}{x(x^2+3)}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=5]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{4dx}{x^3 + 2x^2 + x}$
+				\item $\bigints\cfrac{2x^4-7x^3+7x^2}{x^2 + 4x + 4}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{5\cos x + 10 \sin x}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=2]
+				\setlength\itemsep{1em}
+				\item $\bigints\cos^4x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\sin\cfrac{x}{2}\cos\cfrac{x}{4}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+	\end{enumerate}
+	
+	\vfill\null\columnbreak
+	
+	\centerline{Вариант 26}
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item Вычислить пределы
+		\begin{multicols}{3}
+			\begin{itemize}[label=""]
+				\item $\lim\limits_{x \to 0}\ \cfrac{2x - x^3}{7+2x+6x^4}$
+				\item $\lim\limits_{x \to \infty}\ \cfrac{3x^4 + 2x^3 + 9}{1-3x^2-x^3}$
+				\item $\lim\limits_{x \to 7}\ \cfrac{2-\sqrt{x-3}}{x^2-49}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x \to 0}\ \cfrac{\cos 4x - \cos^3 4x}{3x^2}$
+				\item $\lim\limits_{x \to 0}\ \cfrac{\arcsin 2x}{x^2-4x}$
+				\item $\lim\limits_{x \to \infty}\ \Bigg(\cfrac{x-2}{x+1}\Bigg)^{2x-3}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x \to \infty}\ \Bigg(\cfrac{1-2x}{3-x}\Bigg)^{-x}$
+				\item $\lim\limits_{x \to 3}\ \cfrac{2x^2+5x-3}{3x^2+10x+3}$
+				\item $\lim\limits_{x \to \infty} \sqrt{2x}-\sqrt{2x+x^2}$
+				\vfill\null\columnbreak
+			\end{itemize}
+		\end{multicols}
+		\vspace{-5mm}
+		\item Исследовать на непрерывность и построить
+		\begin{multicols}{3}
+			f(x)=
+			$\begin{cases}
+			x^2 + 1 \quad, & x \leq 1\\
+			2x \quad, & 1 < x \leq 3 \\
+			\mbox{e}^{x-1}, & x > 3
+			\end{cases}$
+			\vfill\null\columnbreak
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item Найти производные $y'=?$
+		\begin{multicols}{2}
+			\begin{itemize}[label=""]
+				\item $y=x\sqrt{x}-\cfrac{3}{x}+\cfrac{4}{x^3}-3x^2$
+				\item $y=\cfrac{\arccos x^3}{\ln (2x+3)}$
+				\item $y=\mbox{arctg}^23x \cdot \sin \cfrac{4}{x}$
+				\item $y=\Big(\mbox{ctg}\ \cfrac{x^2}{2}\Big)^{\lg 5x}$
+			\end{itemize}
+			\vfill\null\columnbreak
+			\begin{itemize}[label=""]
+				\item $y=\sqrt[3]{\big(x-7\big)^5} + \cfrac{5}{4x^2+3x-5}$
+				\item $y=\cfrac{6x^4 - 2x -7}{3+3x^2-x^3}$
+				\item $y=(x^2 + 7)(x^3 + 8)(x^2 - 2)$
+				\item $\sin(xy) + \cos(xy) = 0$
+			\end{itemize}
+		\end{multicols}
+		\vspace{-3mm}
+		$y''_{xx}=? \quad x=\cfrac{2t}{1+t^3} \quad,\quad y=\cfrac{t^2}{1 + t^2}$ \\
+		$y'''_{x_0}=? \quad y=\mbox{e}^x \sin 2x \quad,\quad y=\cfrac{t^2}{1 + t^2}$
+		\item Вычислить пределы используя правило Лопиталя
+		\begin{multicols}{3}
+			\raggedcolumns
+			\begin{itemize}[label=""]
+				\item $\lim\limits_{x\to-\infty} \sqrt[3]{x^5}\cdot\mbox{e}^2x$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x\to+\infty}\cfrac{\ln^2(x^2)}{x}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x\to 0}\cfrac{\mbox{tg}x - x}{2\sin x + x}$
+				\vfill\null\columnbreak
+			\end{itemize}
+		\end{multicols}
+		\vspace{-4mm}	
+		\item Найти наименьшее и наибольшее значения функции
+		
+		$y=\sqrt{x-x^3}$ на отрезке $[-4;3]$
+		\item Исследовать функцию и построить график
+		\begin{multicols}{2}
+			\begin{itemize}[label=""]
+				\setlength\itemsep{0.5em}
+				\item а$)$ $y=\cfrac{x^2-6x+10}{x-3}$
+			\end{itemize}
+			\vfill\null\columnbreak
+			\begin{itemize}[label=""]
+				\setlength\itemsep{0.5em}
+				\item б$)$ $y=\big(x-2\big)\mbox{e}^{-x}$
+			\end{itemize}
+		\end{multicols}
+	\end{enumerate}	
+\end{multicols}
+
+\begin{multicols}{2}
+	\centerline{Вариант 27}
+	\begin{enumerate}[label=\Roman*.]
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\sqrt[4]{2-5x}\ dx$
+				\item $\bigints\cfrac{dx}{7-3x}$
+				\item $\bigints\cos \big( 4x-7 \big)\ dx$
+				\item $\bigints\cfrac{3xdx}{9x^2+2}$
+				\item $\bigints\cfrac{2\sqrt{x} - x^2+3}{\sqrt[3]{x}}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*. , start=6]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{(3 + x)\ln^4(x+3)}$
+				\item $\bigints\sqrt{\cos^32x}\sin 2x\ dx$
+				\item $\bigints\cfrac{dx}{\sin^2x \cdot \mbox{ctg}^4x}$
+				\item $\bigints\cfrac{\arcsin^2 5x}{\sqrt{1-25 x^2}}\ dx$
+				\item $\bigints 3x^2\mbox{e}^{x^3 + 1}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*. , start=11]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{2x - 3}{\sqrt{x^2 - 10}}\ dx$
+				\item $\bigints\cfrac{4xdx}{8-x^4}$
+				\item $\bigints\cfrac{4x^3 + 3x^2}{x^4 + x^3 - 9}\ dx$
+				\item $\bigints\cfrac{dx}{(7x - 1)^2 + 3}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\big(x^2 - 3\big)\mbox{e}^{-2x}\ dx$
+				\item $\bigints\mbox{arcctg}6x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\ln\big(5x + 4\big)\ dx$
+				\item $\bigints\mbox{e}^{\sfrac{x}{5}}\cos x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{x\sqrt{x - 2}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=2]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{\sqrt{x}dx}{1 - \sqrt[3]{x}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{1 - \sqrt{x}}{\sqrt{x} (x + 1)}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{5x^2 - 10x + 25}$
+				\item $\bigints\cfrac{dx}{\sqrt{1 - x - x^2}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{x-3}{4x^2+2x+3}\ dx$
+				\item $\bigints\cfrac{6x^2dx}{x(x^2+3)}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=5]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{4dx}{x^3 + 2x^2 + x}$
+				\item $\bigints\cfrac{2x^4-7x^3+7x^2}{x^2 + 4x + 4}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{5\cos x + 10 \sin x}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=2]
+				\setlength\itemsep{1em}
+				\item $\bigints\cos^4x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\sin\cfrac{x}{2}\cos\cfrac{x}{4}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+	\end{enumerate}
+	
+	\vfill\null\columnbreak
+	
+	\centerline{Вариант 27}
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item Вычислить пределы
+		\begin{multicols}{3}
+			\begin{itemize}[label=""]
+				\item $\lim\limits_{x \to 0}\ \cfrac{2x - x^3}{7+2x+6x^4}$
+				\item $\lim\limits_{x \to \infty}\ \cfrac{3x^4 + 2x^3 + 9}{1-3x^2-x^3}$
+				\item $\lim\limits_{x \to 7}\ \cfrac{2-\sqrt{x-3}}{x^2-49}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x \to 0}\ \cfrac{\cos 4x - \cos^3 4x}{3x^2}$
+				\item $\lim\limits_{x \to 0}\ \cfrac{\arcsin 2x}{x^2-4x}$
+				\item $\lim\limits_{x \to \infty}\ \Bigg(\cfrac{x-2}{x+1}\Bigg)^{2x-3}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x \to \infty}\ \Bigg(\cfrac{1-2x}{3-x}\Bigg)^{-x}$
+				\item $\lim\limits_{x \to 3}\ \cfrac{2x^2+5x-3}{3x^2+10x+3}$
+				\item $\lim\limits_{x \to \infty} \sqrt{2x}-\sqrt{2x+x^2}$
+				\vfill\null\columnbreak
+			\end{itemize}
+		\end{multicols}
+		\vspace{-5mm}
+		\item Исследовать на непрерывность и построить
+		\begin{multicols}{3}
+			f(x)=
+			$\begin{cases}
+			x^2 + 1 \quad, & x \leq 1\\
+			2x \quad, & 1 < x \leq 3 \\
+			\mbox{e}^{x-1}, & x > 3
+			\end{cases}$
+			\vfill\null\columnbreak
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item Найти производные $y'=?$
+		\begin{multicols}{2}
+			\begin{itemize}[label=""]
+				\item $y=x\sqrt{x}-\cfrac{3}{x}+\cfrac{4}{x^3}-3x^2$
+				\item $y=\cfrac{\arccos x^3}{\ln (2x+3)}$
+				\item $y=\mbox{arctg}^23x \cdot \sin \cfrac{4}{x}$
+				\item $y=\Big(\mbox{ctg}\ \cfrac{x^2}{2}\Big)^{\lg 5x}$
+			\end{itemize}
+			\vfill\null\columnbreak
+			\begin{itemize}[label=""]
+				\item $y=\sqrt[3]{\big(x-7\big)^5} + \cfrac{5}{4x^2+3x-5}$
+				\item $y=\cfrac{6x^4 - 2x -7}{3+3x^2-x^3}$
+				\item $y=(x^2 + 7)(x^3 + 8)(x^2 - 2)$
+				\item $\sin(xy) + \cos(xy) = 0$
+			\end{itemize}
+		\end{multicols}
+		\vspace{-3mm}
+		$y''_{xx}=? \quad x=\cfrac{2t}{1+t^3} \quad,\quad y=\cfrac{t^2}{1 + t^2}$ \\
+		$y'''_{x_0}=? \quad y=\mbox{e}^x \sin 2x \quad,\quad y=\cfrac{t^2}{1 + t^2}$
+		\item Вычислить пределы используя правило Лопиталя
+		\begin{multicols}{3}
+			\raggedcolumns
+			\begin{itemize}[label=""]
+				\item $\lim\limits_{x\to-\infty} \sqrt[3]{x^5}\cdot\mbox{e}^2x$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x\to+\infty}\cfrac{\ln^2(x^2)}{x}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x\to 0}\cfrac{\mbox{tg}x - x}{2\sin x + x}$
+				\vfill\null\columnbreak
+			\end{itemize}
+		\end{multicols}
+		\vspace{-4mm}	
+		\item Найти наименьшее и наибольшее значения функции
+		
+		$y=\sqrt{x-x^3}$ на отрезке $[-4;3]$
+		\item Исследовать функцию и построить график
+		\begin{multicols}{2}
+			\begin{itemize}[label=""]
+				\setlength\itemsep{0.5em}
+				\item а$)$ $y=\cfrac{x^2-6x+10}{x-3}$
+			\end{itemize}
+			\vfill\null\columnbreak
+			\begin{itemize}[label=""]
+				\setlength\itemsep{0.5em}
+				\item б$)$ $y=\big(x-2\big)\mbox{e}^{-x}$
+			\end{itemize}
+		\end{multicols}
+	\end{enumerate}	
+\end{multicols}
+
+\begin{multicols}{2}
+	\centerline{Вариант 28}
+	\begin{enumerate}[label=\Roman*.]
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\sqrt[4]{2-5x}\ dx$
+				\item $\bigints\cfrac{dx}{7-3x}$
+				\item $\bigints\cos \big( 4x-7 \big)\ dx$
+				\item $\bigints\cfrac{3xdx}{9x^2+2}$
+				\item $\bigints\cfrac{2\sqrt{x} - x^2+3}{\sqrt[3]{x}}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*. , start=6]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{(3 + x)\ln^4(x+3)}$
+				\item $\bigints\sqrt{\cos^32x}\sin 2x\ dx$
+				\item $\bigints\cfrac{dx}{\sin^2x \cdot \mbox{ctg}^4x}$
+				\item $\bigints\cfrac{\arcsin^2 5x}{\sqrt{1-25 x^2}}\ dx$
+				\item $\bigints 3x^2\mbox{e}^{x^3 + 1}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*. , start=11]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{2x - 3}{\sqrt{x^2 - 10}}\ dx$
+				\item $\bigints\cfrac{4xdx}{8-x^4}$
+				\item $\bigints\cfrac{4x^3 + 3x^2}{x^4 + x^3 - 9}\ dx$
+				\item $\bigints\cfrac{dx}{(7x - 1)^2 + 3}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\big(x^2 - 3\big)\mbox{e}^{-2x}\ dx$
+				\item $\bigints\mbox{arcctg}6x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\ln\big(5x + 4\big)\ dx$
+				\item $\bigints\mbox{e}^{\sfrac{x}{5}}\cos x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{x\sqrt{x - 2}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=2]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{\sqrt{x}dx}{1 - \sqrt[3]{x}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{1 - \sqrt{x}}{\sqrt{x} (x + 1)}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{5x^2 - 10x + 25}$
+				\item $\bigints\cfrac{dx}{\sqrt{1 - x - x^2}}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{x-3}{4x^2+2x+3}\ dx$
+				\item $\bigints\cfrac{6x^2dx}{x(x^2+3)}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=5]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{4dx}{x^3 + 2x^2 + x}$
+				\item $\bigints\cfrac{2x^4-7x^3+7x^2}{x^2 + 4x + 4}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item
+		\begin{multicols}{3}
+			\begin{enumerate}[label=\arabic*.]
+				\setlength\itemsep{1em}
+				\item $\bigints\cfrac{dx}{5\cos x + 10 \sin x}$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=2]
+				\setlength\itemsep{1em}
+				\item $\bigints\cos^4x\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+			\begin{enumerate}[label=\arabic*., start=3]
+				\setlength\itemsep{1em}
+				\item $\bigints\sin\cfrac{x}{2}\cos\cfrac{x}{4}\ dx$
+			\end{enumerate}
+			\vfill\null\columnbreak
+		\end{multicols}
+	\end{enumerate}
+	
+	\vfill\null\columnbreak
+	
+	\centerline{Вариант 28}
+	
+	\begin{enumerate}[label=\arabic*.]
+		\item Вычислить пределы
+		\begin{multicols}{3}
+			\begin{itemize}[label=""]
+				\item $\lim\limits_{x \to 0}\ \cfrac{2x - x^3}{7+2x+6x^4}$
+				\item $\lim\limits_{x \to \infty}\ \cfrac{3x^4 + 2x^3 + 9}{1-3x^2-x^3}$
+				\item $\lim\limits_{x \to 7}\ \cfrac{2-\sqrt{x-3}}{x^2-49}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x \to 0}\ \cfrac{\cos 4x - \cos^3 4x}{3x^2}$
+				\item $\lim\limits_{x \to 0}\ \cfrac{\arcsin 2x}{x^2-4x}$
+				\item $\lim\limits_{x \to \infty}\ \Bigg(\cfrac{x-2}{x+1}\Bigg)^{2x-3}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x \to \infty}\ \Bigg(\cfrac{1-2x}{3-x}\Bigg)^{-x}$
+				\item $\lim\limits_{x \to 3}\ \cfrac{2x^2+5x-3}{3x^2+10x+3}$
+				\item $\lim\limits_{x \to \infty} \sqrt{2x}-\sqrt{2x+x^2}$
+				\vfill\null\columnbreak
+			\end{itemize}
+		\end{multicols}
+		\vspace{-5mm}
+		\item Исследовать на непрерывность и построить
+		\begin{multicols}{3}
+			f(x)=
+			$\begin{cases}
+			x^2 + 1 \quad, & x \leq 1\\
+			2x \quad, & 1 < x \leq 3 \\
+			\mbox{e}^{x-1}, & x > 3
+			\end{cases}$
+			\vfill\null\columnbreak
+			\vfill\null\columnbreak
+		\end{multicols}
+		
+		\item Найти производные $y'=?$
+		\begin{multicols}{2}
+			\begin{itemize}[label=""]
+				\item $y=x\sqrt{x}-\cfrac{3}{x}+\cfrac{4}{x^3}-3x^2$
+				\item $y=\cfrac{\arccos x^3}{\ln (2x+3)}$
+				\item $y=\mbox{arctg}^23x \cdot \sin \cfrac{4}{x}$
+				\item $y=\Big(\mbox{ctg}\ \cfrac{x^2}{2}\Big)^{\lg 5x}$
+			\end{itemize}
+			\vfill\null\columnbreak
+			\begin{itemize}[label=""]
+				\item $y=\sqrt[3]{\big(x-7\big)^5} + \cfrac{5}{4x^2+3x-5}$
+				\item $y=\cfrac{6x^4 - 2x -7}{3+3x^2-x^3}$
+				\item $y=(x^2 + 7)(x^3 + 8)(x^2 - 2)$
+				\item $\sin(xy) + \cos(xy) = 0$
+			\end{itemize}
+		\end{multicols}
+		\vspace{-3mm}
+		$y''_{xx}=? \quad x=\cfrac{2t}{1+t^3} \quad,\quad y=\cfrac{t^2}{1 + t^2}$ \\
+		$y'''_{x_0}=? \quad y=\mbox{e}^x \sin 2x \quad,\quad y=\cfrac{t^2}{1 + t^2}$
+		\item Вычислить пределы используя правило Лопиталя
+		\begin{multicols}{3}
+			\raggedcolumns
+			\begin{itemize}[label=""]
+				\item $\lim\limits_{x\to-\infty} \sqrt[3]{x^5}\cdot\mbox{e}^2x$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x\to+\infty}\cfrac{\ln^2(x^2)}{x}$
+				\vfill\null\columnbreak
+				\item $\lim\limits_{x\to 0}\cfrac{\mbox{tg}x - x}{2\sin x + x}$
+				\vfill\null\columnbreak
+			\end{itemize}
+		\end{multicols}
+		\vspace{-4mm}	
+		\item Найти наименьшее и наибольшее значения функции
+		
+		$y=\sqrt{x-x^3}$ на отрезке $[-4;3]$
+		\item Исследовать функцию и построить график
+		\begin{multicols}{2}
+			\begin{itemize}[label=""]
+				\setlength\itemsep{0.5em}
+				\item а$)$ $y=\cfrac{x^2-6x+10}{x-3}$
+			\end{itemize}
+			\vfill\null\columnbreak
+			\begin{itemize}[label=""]
+				\setlength\itemsep{0.5em}
+				\item б$)$ $y=\big(x-2\big)\mbox{e}^{-x}$
+			\end{itemize}
+		\end{multicols}
+	\end{enumerate}	
+\end{multicols}
 \end{document}
